@@ -3,16 +3,21 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["discord", "bot", "moderation", "turkish"],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Turkish Discord Moderation Bot with croxydb",
   "dependencies": {
-    "axios": "^1.10.0",
-    "croxydb": "^0.0.26",
-    "discord.js": "^14.21.0",
-    "dotenv": "^17.2.0"
+    "axios": "^1.7.9",
+    "croxydb": "^0.0.7",
+    "discord.js": "^14.17.0",
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
   }
 }
