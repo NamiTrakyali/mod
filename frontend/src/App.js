@@ -601,7 +601,7 @@ const Settings = ({ selectedGuild }) => {
     return (
       <div className="p-6">
         <div className="bg-white rounded-lg p-8 shadow-sm border border-gray-200 text-center">
-          <Settings className="w-16 h-16 text-gray-400 mx-auto mb-4" />
+          <SettingsIcon className="w-16 h-16 text-gray-400 mx-auto mb-4" />
           <h3 className="text-xl font-semibold text-gray-800 mb-2">Sunucu Seçin</h3>
           <p className="text-gray-600">
             Bot ayarlarını yönetmek için sol taraftan bir sunucu seçin.
