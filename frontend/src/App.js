@@ -132,7 +132,7 @@ const Sidebar = ({ activeTab, setActiveTab, guilds, selectedGuild, setSelectedGu
   const menuItems = [
     { id: 'dashboard', label: 'Ana Sayfa', icon: Home },
     { id: 'moderation', label: 'Moderasyon', icon: Shield },
-    { id: 'settings', label: 'Ayarlar', icon: Settings },
+    { id: 'settings', label: 'Ayarlar', icon: SettingsIcon },
     { id: 'stats', label: 'İstatistikler', icon: BarChart3 },
     { id: 'ai', label: 'AI Yönetimi', icon: MessageCircle },
   ];
