@@ -4,7 +4,7 @@ import axios from "axios";
 import { 
   Shield, 
   Users, 
-  Settings, 
+  Settings as SettingsIcon, 
   BarChart3, 
   LogOut, 
   Home,
