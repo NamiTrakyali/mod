@@ -761,7 +761,7 @@ const Settings = ({ selectedGuild }) => {
                 </>
               ) : (
                 <>
-                  <Settings className="w-4 h-4" />
+                  <SettingsIcon className="w-4 h-4" />
                   Ayarları Kaydet
                 </>
               )}
